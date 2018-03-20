@@ -10,7 +10,7 @@ var express 		= require('express'),
     place 			= require('./models/user'),
     upload      	= multer({ dest: 'public/files' });
 
-	port 			= 3000,
+	port 			= 80,
 
 	routes 			= require('./routes/route')
 
